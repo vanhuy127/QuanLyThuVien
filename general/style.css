@@ -1,0 +1,21 @@
+@import "../resetCSS/reset.css";
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  background: #f3f3f3;
+}
+:root {
+  --primary-color: #6477db;
+  --text-color: #000;
+  --blue-light: rgba(227, 233, 255, 0.75);
+  --green: #27ae60;
+  --green-light: #6fcf97;
+  --green-lighter: rgba(3, 171, 0, 0.2);
+}
+
+.container {
+  max-width: 1405px;
+  padding: 0 15px;
+  height: 100%;
+  margin: 0 auto;
+}

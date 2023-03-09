@@ -1,0 +1,16 @@
+{
+  "courses": [
+    {
+      "name": "javascrip",
+      "description": "nhập môn hack facebook",
+      "id": 2
+    }
+  ],
+  "account": [
+    {
+      "username": "admin",
+      "password": "22222",
+      "id": 1
+    }
+  ]
+}

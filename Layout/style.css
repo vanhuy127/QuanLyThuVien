@@ -1,0 +1,118 @@
+@import "../general/style.css";
+.header {
+  width: 100%;
+  height: 178px;
+  background: var(--primary-color);
+}
+.header-main {
+  width: 100%;
+  height: 84px;
+  background: var(--primary-color);
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+}
+.header-main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  height: 100%;
+  margin: auto 0;
+}
+
+.logo span {
+  height: 25px;
+  width: 1px;
+  background: #fff;
+}
+
+.logout {
+  font-size: 15px;
+  padding: 13px 26px;
+  background: #ff4742;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.logout:hover {
+  opacity: 0.8;
+}
+.main .container {
+  display: flex;
+  align-items: center;
+  gap: 0 35px;
+  align-items: flex-start;
+}
+.nav-bar {
+  width: 315px;
+  height: 860px;
+  background-color: #fff;
+  transform: translateY(-55px);
+  border-radius: 10px;
+  padding: 0 20px 0 12px;
+}
+.main-content {
+  width: 1030px;
+  height: calc(805px - 40px);
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 40px;
+}
+.nav-bar .name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--text-color);
+  margin: 40px 0 10px;
+  text-align: center;
+}
+.nav-bar .role {
+  max-width: 100px;
+  margin: 0 auto 50px;
+  padding: 3px 10px;
+  text-align: center;
+  background-color: var(--green-lighter);
+  color: var(--green-light);
+  border-radius: 20px;
+  font-weight: 400;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  z-index: 999;
+}
+.menu-list .menu-item a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0 10px 23px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+  border-radius: 20px;
+}
+.menu-list .menu-item a:hover {
+  background: var(--blue-light);
+  color: var(--primary-color);
+}
+.sub-list .sub-item a {
+  margin-left: 25px;
+  font-size: 16px;
+}
+.sub-list {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.menu-item:hover .sub-list {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}

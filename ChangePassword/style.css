@@ -1,0 +1,99 @@
+@import "../resetCSS/reset.css";
+
+:root {
+  --success-color: #2691d9;
+  --error-color: #e74c3c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+  background: linear-gradient(120deg, #3ca7ee, #9b408f);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 30px;
+  padding: 40px;
+}
+.container h1 {
+  text-align: center;
+  color: var(--success-color);
+}
+.form-control {
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+.form-control input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #adadad;
+}
+.form-control span {
+  position: absolute;
+  border-bottom: 2px solid var(--success-color);
+  width: 0;
+  top: 38px;
+  left: 0;
+  transition: 0.4s;
+}
+.form-control input:focus ~ span {
+  width: 100%;
+}
+.form-control.error small {
+  color: var(--error-color);
+}
+.form-control.error input {
+  border-bottom: 2px solid var(--error-color);
+}
+
+.button-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-control button,
+a {
+  width: 45%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: var(--success-color);
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 25px 0 0 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background-color: #08609a;
+}
+.button-control {
+  text-align: center;
+}
+
+.cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(8, 96, 154, 0.3);
+  color: #fff;
+}
+
+.cancel:hover {
+  background-color: rgba(8, 96, 154, 0.5);
+}
