@@ -56,6 +56,7 @@ function checkMatchPasswordError(passwordInput, cfPassWordInput) {
   return false;
 }
 
+//hàm chính
 function start() {
   updateUser(function (users) {
     handleChangePw(users);
@@ -68,8 +69,6 @@ function updateUser(callback) {
     .then(callback);
 }
 function putUser(id, data) {
-  console.log(id, data);
-
   var option = {
     method: "PUT",
     headers: {
