@@ -83,7 +83,7 @@ function handleLogin(users) {
   let check = false;
   users.map((user) => {
     if (
-      studentID.value.trim() === user.username &&
+      studentID.value.trim().toLowerCase() === user.username.toLowerCase() &&
       password.value === user.password
     ) {
       check = true;
