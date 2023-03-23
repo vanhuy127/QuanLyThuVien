@@ -274,9 +274,50 @@
   ],
   "account": [
     {
-      "username": "admin",
-      "password": "22222",
-      "id": 1
+      "id": 1,
+      "idSV": "SV01",
+      "username": "21T1020874",
+      "password": "12345"
+    }
+  ],
+  "studentInformation": [
+    {
+      "id": 1,
+      "idSV": "SV01",
+      "maSV": "21T1020874",
+      "hoTen": "Nguyễn Văn Huy",
+      "ngaySđinh": "12/07/2003",
+      "lop": "K45I"
+    }
+  ],
+  "borrowedBookInformation": [
+    {
+      "id": 1,
+      "idSV": "SV01",
+      "idSachMuon": ["TIN02", "TIN09"],
+      "ngayMuon": "23/03/2023",
+      "ngayTra": "06/04/2023",
+      "soNgayMuon": 14
+    }
+  ],
+  "favotite": [
+    {
+      "id": 1,
+      "idSach":["TIN01","TIN07", "TIN08", "TOAN03", "TOAN04", "TOAN05"] 
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "idBST": "BST01",
+      "ten": "Giáo trình",
+      "idSach": ["TIN03", "TIN04", "TIN06"]
+    },
+    {
+      "id": 2,
+      "idBST": "BST02",
+      "ten": "Bài tập",
+      "idSach": ["TIN01", "TIN02"]
     }
   ]
 }
