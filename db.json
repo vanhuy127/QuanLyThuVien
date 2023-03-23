@@ -1,9 +1,275 @@
 {
   "courses": [
     {
-      "name": "javascrip",
-      "description": "nhập môn hack facebook",
+      "maSach": "TIN01",
+      "ten": "Bài tập Pascal Tập 1",
+      "NXB": "DHQG Hà Nội, 2002",
+      "tacGia": "Nguyễn Quý Khang",
+      "viTri": "GT TIN - N1",
+      "soLuong": 28,
+      "id": 1
+    },
+    {
+      "maSach": "TIN02",
+      "ten": "Bài tập Pascal Tập 2",
+      "NXB": "DHQG Hà Nội, 2002",
+      "tacGia": "Nguyễn Quý Khang",
+      "viTri": "GT TIN - N2",
+      "soLuong": 34,
       "id": 2
+    },
+    {
+      "maSach": "TIN03",
+      "ten": "Xây dựng Website - Frontpage",
+      "NXB": "Giáo dục, 2000",
+      "tacGia": "Lê Mạnh Thạnh",
+      "viTri": "GT TIN - N3",
+      "soLuong": 26,
+      "id": 3
+    },
+    {
+      "maSach": "TIN04",
+      "ten": "Cẩm nang thiết kế Website",
+      "NXB": "Hà Nội, 2001",
+      "tacGia": "Nhóm tác giả Elicom",
+      "viTri": "GT TIN - N3",
+      "soLuong": 26,
+      "id": 4
+    },
+    {
+      "maSach": "TIN05",
+      "ten": "Giáo trình mạng quang",
+      "NXB": "DH Huế, 2016",
+      "tacGia": "Võ Viết Minh Nhật",
+      "viTri": "GT TIN - N4",
+      "soLuong": 25,
+      "id": 5
+    },
+    {
+      "maSach": "TIN06",
+      "ten": "Giáo trình vi xử lý và cấu trúc máy tính",
+      "NXB": "Giáo dục Việt Nam, 2010",
+      "tacGia": "Ngô Diên Tập",
+      "viTri": "GT TIN - N4",
+      "soLuong": 15,
+      "id": 6
+    },
+    {
+      "maSach": "TIN07",
+      "ten": "Cấu trúc dữ liệu & thuật toán",
+      "NXB": "Khoa học và kỹ thuật, 2021",
+      "tacGia": "Đinh Mạnh Tường",
+      "viTri": "GT TIN - N4",
+      "soLuong": 10,
+      "id": 7
+    },
+    {
+      "maSach": "TIN08",
+      "ten": "Giáo trình cơ sở dữ liệu",
+      "NXB": "DH Huế, 2018",
+      "tacGia": "Nguyễn Hoàng Sơn",
+      "viTri": "GT TIN - N5",
+      "soLuong": 25,
+      "id": 8
+    },
+    {
+      "maSach": "TIN09",
+      "ten": "Nguyên lý hệ điều hành",
+      "NXB": "Khoa học và kỹ thuật, 2005",
+      "tacGia": "Nguyễn Gia Định",
+      "viTri": "GT TIN - N10",
+      "soLuong": 34,
+      "id": 9
+    },
+    {
+      "maSach": "TIN10",
+      "ten": "Phong cách trình bày trang Web",
+      "NXB": "Thống kê, 2000",
+      "tacGia": "Hồ Sỹ Mậu Thúc",
+      "viTri": "GT TIN - N12",
+      "soLuong": 28,
+      "id": 10
+    },
+    {
+      "maSach": "TOAN01",
+      "ten": "Giáo trình đại số",
+      "NXB": "DH tổng hợp Hà Nội, 1990",
+      "tacGia": "Phạm Việt Hùng",
+      "viTri": "GT TOÁN - N1",
+      "soLuong": 69,
+      "id": 11
+    },
+    {
+      "maSach": "TOAN02",
+      "ten": "Giáo trình cơ sở toán",
+      "NXB": "DH Huế, 2016",
+      "tacGia": "Bùi Văn Hiếu",
+      "viTri": "GT TOÁN - N2",
+      "soLuong": 25,
+      "id": 12
+    },
+    {
+      "maSach": "TOAN03",
+      "ten": "Giáo trình đại số tuyến tính",
+      "NXB": "DH quốc gia Hà Nội, 2002",
+      "tacGia": "Ngô Viết Trung",
+      "viTri": "GT TOÁN - N3",
+      "soLuong": 33,
+      "id": 13
+    },
+    {
+      "maSach": "TOAN04",
+      "ten": "Giáo trình đại số tuyến tính và hình học giải tích",
+      "NXB": "DH Huế, 2019",
+      "tacGia": "Châu Thanh Hải",
+      "viTri": "GT TOÁN - N3",
+      "soLuong": 25,
+      "id": 14
+    },
+    {
+      "maSach": "TOAN05",
+      "ten": "Bài tập đại số đại cương",
+      "NXB": "DH Huế, 2008",
+      "tacGia": "Nguyễn Gia Định",
+      "viTri": "GT TOÁN - N8",
+      "soLuong": 50,
+      "id": 15
+    },
+    {
+      "maSach": "MT01",
+      "ten": "Ô nhiễm không khí và xử lý khí thải",
+      "NXB": "Khoa học kỹ thuật, 1994",
+      "tacGia": "Trần Ngọc Chấn",
+      "viTri": "GT MÔI TRƯỜNG - N1",
+      "soLuong": 19,
+      "id": 16
+    },
+
+    {
+      "maSach": "MT02",
+      "ten": "Giáo trình công nghệ môi trường",
+      "NXB": "DH quốc gia, 2003",
+      "tacGia": "Trịnh Thị Thanh",
+      "viTri": "GT MÔI TRƯỜNG - N3",
+      "soLuong": 25,
+      "id": 17
+    },
+    {
+      "maSach": "MT03",
+      "ten": "Cơ sở khoa học môi trường ",
+      "NXB": "DH quốc gia Hà Nội, 2002",
+      "tacGia": "Lưu Đức Hải",
+      "viTri": "GT MÔI TRƯỜNG - N1",
+      "soLuong": 94,
+      "id": 18
+    },
+    {
+      "maSach": "MT04",
+      "ten": "Dân số định cư môi trường",
+      "NXB": "DH quốc gia Hà Nội, 2001",
+      "tacGia": "Nguyễn Đình Hoè",
+      "viTri": "GT MÔI TRƯỜNG - N4",
+      "soLuong": 50,
+      "id": 19
+    },
+    {
+      "maSach": "KTR01",
+      "ten": "Giáo trình lịch sử cấu trúc Việt Nam",
+      "NXB": "DH Huế, 2016",
+      "tacGia": "Nguyễn Ngọc Tùng",
+      "viTri": "GT KIẾN TRÚC - N1",
+      "soLuong": 25,
+      "id": 20
+    },
+    {
+      "maSach": "KTR02",
+      "ten": "Giáo trình kết cấu xây dựng",
+      "NXB": "Xây dựng, 2001",
+      "tacGia": "",
+      "viTri": "GT KIẾN TRÚC - N2",
+      "soLuong": 25,
+      "id": 21
+    },
+    {
+      "maSach": "KTR03",
+      "ten": "Nguyên lý thiết kế công trình kiến trúc công cộng",
+      "NXB": "Xây dựng, 2001",
+      "tacGia": "Tạ Trường Xuân",
+      "viTri": "GT KIẾN TRÚC - N3",
+      "soLuong": 25,
+      "id": 22
+    },
+    {
+      "maSach": "KTR04",
+      "ten": "Giáo trình thiết kế kiến trúc nhà dân dụng",
+      "NXB": "Xây dựng, 2001",
+      "tacGia": "",
+      "viTri": "GT KIẾN TRÚC - N4",
+      "soLuong": 29,
+      "id": 23
+    },
+    {
+      "maSach": "KTR05",
+      "ten": "Cơ sở tạo hình kiến trúc",
+      "NXB": "Xây dựng, 2001",
+      "tacGia": "Nguyễn Ngọc Giả",
+      "viTri": "GT KIẾN TRÚC - N7",
+      "soLuong": 20,
+      "id": 24
+    },
+    {
+      "maSach": "KTR06",
+      "ten": "Cơ sở tạo hình kiến trúc",
+      "NXB": "Xây dựng, 2001",
+      "tacGia": "Nguyễn Ngọc Giả",
+      "viTri": "GT KIẾN TRÚC - N7",
+      "soLuong": 20,
+      "id": 25
+    },
+    {
+      "maSach": "KTR07",
+      "ten": "Lý thuyết kiến trúc",
+      "NXB": "Xây dựng, 2002",
+      "tacGia": "Nguyễn Mạnh Thu",
+      "viTri": "GT KIẾN TRÚC - N8",
+      "soLuong": 20,
+      "id": 26
+    },
+    {
+      "maSach": "VL01",
+      "ten": "Giáo trình thông tin cáp quang",
+      "NXB": "DH Huế, 2013",
+      "tacGia": "Bùi Bằng Đoan",
+      "viTri": "GT VẬT LÝ - N2",
+      "soLuong": 8,
+      "id": 27
+    }
+    ,{
+      "maSach": "VL02",
+      "ten": "Bài tập vật lý đại cương",
+      "NXB": "Giáo dục, 2009",
+      "tacGia": "Lương Duyên Bình",
+      "viTri": "GT VẬT LÝ - N6,8",
+      "soLuong": 6,
+      "id": 28
+    }
+    ,{
+      "maSach": "VL03",
+      "ten": "Giải bài tập và bài toán cơ sở vật lý",
+      "NXB": "Giáo dục, 2001",
+      "tacGia": "Lương Duyên Bình",
+      "viTri": "GT VẬT LÝ - N15",
+      "soLuong": 14,
+      "id": 29
+    }
+    ,{
+      "maSach": "KTR07",
+      "ten": "Cơ sở vật lý",
+      "NXB": "Giáo dục, 1996",
+      "tacGia": "",
+      "viTri": "GT VẬT LÝ - N14",
+      "soLuong": 13,
+      "id": 30
     }
   ],
   "account": [
