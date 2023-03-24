@@ -1,1 +1,242 @@
-@import "../resetCSS/reset.css";
+@import "../general/style.css";
+
+.header {
+  width: 100%;
+  height: 178px;
+  background: var(--primary-color);
+}
+.header-main {
+  width: 100%;
+  height: 84px;
+  background: var(--primary-color);
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+}
+.header-main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  height: 100%;
+  margin: auto 0;
+}
+
+.logo span {
+  height: 25px;
+  width: 1px;
+  background: #fff;
+}
+
+.logout {
+  font-size: 15px;
+  padding: 13px 26px;
+  background: #ff4742;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.logout:hover {
+  opacity: 0.8;
+}
+.main .container {
+  display: flex;
+  align-items: center;
+  gap: 0 35px;
+  align-items: flex-start;
+}
+.nav-bar {
+  width: 315px;
+  height: 860px;
+  background-color: #fff;
+  transform: translateY(-55px);
+  border-radius: 10px;
+  padding: 0 20px 0 12px;
+}
+.main-content {
+  width: 1030px;
+  height: calc(805px - 40px);
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 40px;
+}
+.nav-bar .name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--text-color);
+  margin: 40px 0 10px;
+  text-align: center;
+}
+.nav-bar .role {
+  max-width: 100px;
+  margin: 0 auto 50px;
+  padding: 3px 10px;
+  text-align: center;
+  background-color: var(--green-lighter);
+  color: var(--green-light);
+  border-radius: 20px;
+  font-weight: 400;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  z-index: 999;
+}
+.menu-list .menu-item a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0 10px 23px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+  border-radius: 20px;
+}
+.menu-list .menu-item a:hover {
+  background: var(--blue-light);
+  color: var(--primary-color);
+}
+.sub-list .sub-item a {
+  margin-left: 25px;
+  font-size: 16px;
+}
+.sub-list {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.menu-item:hover .sub-list {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.main-content {
+  font-family: "Roboto Condensed";
+}
+
+/*Books*/
+
+.featured_boks {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.featured_boks h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+
+.featured_boks .featured_book_box {
+  width: 95%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.featured_boks .featured_book_box .featured_book_card {
+  width: 250px;
+  height: 420px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919191;
+  margin: auto 20px;
+}
+
+.featured_boks .featured_book_box .featured_book_card:hover {
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img img {
+  width: 150px;
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2 {
+  margin: 12px;
+}
+
+.featured_boks
+  .featured_book_box
+  .featured_book_card
+  .featurde_book_tag
+  .writer {
+  color: #919191;
+}
+
+.featured_boks
+  .featured_book_box
+  .featured_book_card
+  .featurde_book_tag
+  .categories {
+  color: var(--primary-color);
+  margin-top: 8px;
+}
+
+.featured_boks
+  .featured_book_box
+  .featured_book_card
+  .featurde_book_tag
+  .book_price {
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.featured_boks
+  .featured_book_box
+  .featured_book_card
+  .featurde_book_tag
+  .book_price
+  sub {
+  font-weight: 100;
+  padding: 0 5px;
+}
+
+.featured_boks
+  .featured_book_box
+  .featured_book_card
+  .featurde_book_tag
+  .f_btn {
+  padding: 8px 20px;
+  border: 2px solid var(--primary-color);
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  background: #eaeaea;
+}
