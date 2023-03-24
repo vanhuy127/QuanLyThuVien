@@ -90,7 +90,7 @@ function handleLogin(users) {
     }
   });
   if (check) {
-    window.location = "./Layout/index.html";
+    window.location = "./Home/index.html";
   } else {
     alert("Tài khoản hoặc mật khẩu không đúng");
   }

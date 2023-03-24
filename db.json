@@ -160,7 +160,6 @@
       "soLuong": 19,
       "id": 16
     },
-
     {
       "maSach": "MT02",
       "ten": "Giáo trình công nghệ môi trường",
@@ -270,8 +269,8 @@
       "viTri": "GT VẬT LÝ - N2",
       "soLuong": 8,
       "id": 27
-    }
-    ,{
+    },
+    {
       "maSach": "VL02",
       "ten": "Bài tập vật lý đại cương",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -280,8 +279,8 @@
       "viTri": "GT VẬT LÝ - N6,8",
       "soLuong": 6,
       "id": 28
-    }
-    ,{
+    },
+    {
       "maSach": "VL03",
       "ten": "Giải bài tập và bài toán cơ sở vật lý",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -290,8 +289,8 @@
       "viTri": "GT VẬT LÝ - N15",
       "soLuong": 14,
       "id": 29
-    }
-    ,{
+    },
+    {
       "maSach": "KTR07",
       "ten": "Cơ sở vật lý",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -304,10 +303,9 @@
   ],
   "account": [
     {
-      "id": 1,
-      "idSV": "SV01",
       "username": "21T1020874",
-      "password": "12345"
+      "password": "11111",
+      "id": 1
     }
   ],
   "studentInformation": [
@@ -316,7 +314,7 @@
       "idSV": "SV01",
       "maSV": "21T1020874",
       "hoTen": "Nguyễn Văn Huy",
-      "ngaySđinh": "12/07/2003",
+      "ngaySinh": "12/07/2003",
       "lop": "K45I"
     }
   ],
@@ -324,7 +322,10 @@
     {
       "id": 1,
       "idSV": "SV01",
-      "idSachMuon": ["TIN02", "TIN09"],
+      "idSachMuon": [
+        "TIN02",
+        "TIN09"
+      ],
       "ngayMuon": "23/03/2023",
       "ngayTra": "06/04/2023",
       "soNgayMuon": 14
@@ -333,7 +334,14 @@
   "favotite": [
     {
       "id": 1,
-      "idSach":["TIN01","TIN07", "TIN08", "TOAN03", "TOAN04", "TOAN05"] 
+      "idSach": [
+        "TIN01",
+        "TIN07",
+        "TIN08",
+        "TOAN03",
+        "TOAN04",
+        "TOAN05"
+      ]
     }
   ],
   "collections": [
@@ -341,13 +349,20 @@
       "id": 1,
       "idBST": "BST01",
       "ten": "Giáo trình",
-      "idSach": ["TIN03", "TIN04", "TIN06"]
+      "idSach": [
+        "TIN03",
+        "TIN04",
+        "TIN06"
+      ]
     },
     {
       "id": 2,
       "idBST": "BST02",
       "ten": "Bài tập",
-      "idSach": ["TIN01", "TIN02"]
+      "idSach": [
+        "TIN01",
+        "TIN02"
+      ]
     }
   ]
 }

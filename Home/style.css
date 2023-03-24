@@ -117,18 +117,12 @@
   opacity: 1;
   display: block;
 }
-.main-content {
-  font-family: "Roboto Condensed";
-}
-
-/*Books*/
 
 .featured_boks {
   width: 100%;
-  height: 100vh;
-  padding: 70px 0;
+  height: 100%;
+  padding: 20px 0;
 }
-
 .featured_boks h1 {
   display: flex;
   align-items: center;
@@ -138,36 +132,40 @@
 }
 
 .featured_boks .featured_book_box {
-  width: 95%;
-  height: 60vh;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  overflow: hidden;
-  overflow-x: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  gap: 20px;
 }
 
 .featured_boks .featured_book_box .featured_book_card {
   width: 250px;
   height: 420px;
   text-align: center;
-  padding: 5px;
+  padding: 10px 5px;
   border: 1px solid #919191;
   margin: auto 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featured_boks .featured_book_box .featured_book_card:hover {
   box-shadow: 0 0 5px var(--primary-color);
 }
 
-.featured_boks .featured_book_box .featured_book_card .featurde_book_img img {
-  width: 150px;
-  display: block;
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img {
   width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 200px;
 }
-
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2 {
   margin: 12px;
 }
@@ -214,12 +212,24 @@
   .featured_book_card
   .featurde_book_tag
   .f_btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
   padding: 8px 20px;
   border: 2px solid var(--primary-color);
   text-decoration: none;
   color: #000;
 }
+.f_btn:hover,
+.f_btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
 
+.f_btn:hover {
+  transform: translateY(-2px);
+}
 ::-webkit-scrollbar {
   width: 10px;
   height: 8px;
@@ -232,11 +242,4 @@
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
   border-radius: 10px;
-}
-
-/*Footer*/
-
-footer {
-  width: 100%;
-  background: #eaeaea;
 }
