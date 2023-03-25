@@ -168,6 +168,7 @@
 }
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2 {
   margin: 12px;
+  color: #dd4a48;
 }
 
 .featured_boks
@@ -178,11 +179,7 @@
   color: #919191;
 }
 
-.featured_boks
-  .featured_book_box
-  .featured_book_card
-  .featurde_book_tag
-  .categories {
+.publishing_company {
   color: var(--primary-color);
   margin-top: 8px;
 }
@@ -219,6 +216,7 @@
   border: 2px solid var(--primary-color);
   text-decoration: none;
   color: #000;
+  margin-top: 40px;
 }
 .f_btn:hover,
 .f_btn:focus {
