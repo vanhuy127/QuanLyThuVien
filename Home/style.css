@@ -152,6 +152,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  justify-content: space-around;
 }
 
 .featured_boks .featured_book_box .featured_book_card:hover {
@@ -170,6 +171,14 @@
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2 {
   margin: 12px;
   color: #dd4a48;
+  font-size: 18px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* Ẩn các dòng từ dòng 3 trở đi dưới dạng "..." */
+  text-overflow: ellipsis;
 }
 
 .featured_boks
@@ -279,7 +288,7 @@
 .heart:hover {
   color: #cb418f;
 }
-.heart .favorite_active {
+.heart.favorite_active {
   color: #cb418f;
 }
 .heart {

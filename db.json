@@ -1,6 +1,7 @@
 {
   "books": [
     {
+      "id": 1,
       "maSach": "TIN01",
       "ten": "Bài tập Pascal Tập 1",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -8,9 +9,10 @@
       "tacGia": "Nguyễn Quý Khang",
       "viTri": "GT TIN - N1",
       "soLuong": 28,
-      "id": 1
+      "isFalvorite": false
     },
     {
+      "id": 2,
       "maSach": "TIN02",
       "ten": "Bài tập Pascal Tập 2",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -18,9 +20,10 @@
       "tacGia": "Nguyễn Quý Khang",
       "viTri": "GT TIN - N2",
       "soLuong": 34,
-      "id": 2
+      "isFalvorite": false
     },
     {
+      "id": 3,
       "maSach": "TIN03",
       "ten": "Xây dựng Website - Frontpage",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -28,7 +31,7 @@
       "tacGia": "Lê Mạnh Thạnh",
       "viTri": "GT TIN - N3",
       "soLuong": 26,
-      "id": 3
+      "isFalvorite": false
     },
     {
       "maSach": "TIN04",
@@ -38,9 +41,11 @@
       "tacGia": "Nhóm tác giả Elicom",
       "viTri": "GT TIN - N3",
       "soLuong": 26,
+      "isFalvorite": false,
       "id": 4
     },
     {
+      "id": 5,
       "maSach": "TIN05",
       "ten": "Giáo trình mạng quang",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -48,7 +53,7 @@
       "tacGia": "Võ Viết Minh Nhật",
       "viTri": "GT TIN - N4",
       "soLuong": 25,
-      "id": 5
+      "isFalvorite": false
     },
     {
       "maSach": "TIN06",
@@ -58,6 +63,7 @@
       "tacGia": "Ngô Diên Tập",
       "viTri": "GT TIN - N4",
       "soLuong": 15,
+      "isFalvorite": false,
       "id": 6
     },
     {
@@ -68,6 +74,7 @@
       "tacGia": "Đinh Mạnh Tường",
       "viTri": "GT TIN - N4",
       "soLuong": 10,
+      "isFalvorite": false,
       "id": 7
     },
     {
@@ -78,6 +85,7 @@
       "tacGia": "Nguyễn Hoàng Sơn",
       "viTri": "GT TIN - N5",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 8
     },
     {
@@ -88,6 +96,7 @@
       "tacGia": "Nguyễn Gia Định",
       "viTri": "GT TIN - N10",
       "soLuong": 34,
+      "isFalvorite": false,
       "id": 9
     },
     {
@@ -98,6 +107,7 @@
       "tacGia": "Hồ Sỹ Mậu Thúc",
       "viTri": "GT TIN - N12",
       "soLuong": 28,
+      "isFalvorite": false,
       "id": 10
     },
     {
@@ -108,6 +118,7 @@
       "tacGia": "Phạm Việt Hùng",
       "viTri": "GT TOÁN - N1",
       "soLuong": 69,
+      "isFalvorite": false,
       "id": 11
     },
     {
@@ -118,6 +129,7 @@
       "tacGia": "Bùi Văn Hiếu",
       "viTri": "GT TOÁN - N2",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 12
     },
     {
@@ -128,6 +140,7 @@
       "tacGia": "Ngô Viết Trung",
       "viTri": "GT TOÁN - N3",
       "soLuong": 33,
+      "isFalvorite": false,
       "id": 13
     },
     {
@@ -138,6 +151,7 @@
       "tacGia": "Châu Thanh Hải",
       "viTri": "GT TOÁN - N3",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 14
     },
     {
@@ -148,6 +162,7 @@
       "tacGia": "Nguyễn Gia Định",
       "viTri": "GT TOÁN - N8",
       "soLuong": 50,
+      "isFalvorite": false,
       "id": 15
     },
     {
@@ -158,6 +173,7 @@
       "tacGia": "Trần Ngọc Chấn",
       "viTri": "GT MÔI TRƯỜNG - N1",
       "soLuong": 19,
+      "isFalvorite": false,
       "id": 16
     },
     {
@@ -168,6 +184,7 @@
       "tacGia": "Trịnh Thị Thanh",
       "viTri": "GT MÔI TRƯỜNG - N3",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 17
     },
     {
@@ -178,6 +195,7 @@
       "tacGia": "Lưu Đức Hải",
       "viTri": "GT MÔI TRƯỜNG - N1",
       "soLuong": 94,
+      "isFalvorite": false,
       "id": 18
     },
     {
@@ -188,6 +206,7 @@
       "tacGia": "Nguyễn Đình Hoè",
       "viTri": "GT MÔI TRƯỜNG - N4",
       "soLuong": 50,
+      "isFalvorite": false,
       "id": 19
     },
     {
@@ -198,6 +217,7 @@
       "tacGia": "Nguyễn Ngọc Tùng",
       "viTri": "GT KIẾN TRÚC - N1",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 20
     },
     {
@@ -208,6 +228,7 @@
       "tacGia": "",
       "viTri": "GT KIẾN TRÚC - N2",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 21
     },
     {
@@ -218,6 +239,7 @@
       "tacGia": "Tạ Trường Xuân",
       "viTri": "GT KIẾN TRÚC - N3",
       "soLuong": 25,
+      "isFalvorite": false,
       "id": 22
     },
     {
@@ -228,6 +250,7 @@
       "tacGia": "",
       "viTri": "GT KIẾN TRÚC - N4",
       "soLuong": 29,
+      "isFalvorite": false,
       "id": 23
     },
     {
@@ -238,6 +261,7 @@
       "tacGia": "Nguyễn Ngọc Giả",
       "viTri": "GT KIẾN TRÚC - N7",
       "soLuong": 20,
+      "isFalvorite": false,
       "id": 24
     },
     {
@@ -248,6 +272,7 @@
       "tacGia": "Nguyễn Ngọc Giả",
       "viTri": "GT KIẾN TRÚC - N7",
       "soLuong": 20,
+      "isFalvorite": false,
       "id": 25
     },
     {
@@ -258,6 +283,7 @@
       "tacGia": "Nguyễn Mạnh Thu",
       "viTri": "GT KIẾN TRÚC - N8",
       "soLuong": 20,
+      "isFalvorite": false,
       "id": 26
     },
     {
@@ -268,9 +294,11 @@
       "tacGia": "Bùi Bằng Đoan",
       "viTri": "GT VẬT LÝ - N2",
       "soLuong": 8,
+      "isFalvorite": false,
       "id": 27
     },
     {
+      "id": 28,
       "maSach": "VL02",
       "ten": "Bài tập vật lý đại cương",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -278,7 +306,7 @@
       "tacGia": "Lương Duyên Bình",
       "viTri": "GT VẬT LÝ - N6,8",
       "soLuong": 6,
-      "id": 28
+      "isFalvorite": false
     },
     {
       "maSach": "VL03",
@@ -288,6 +316,7 @@
       "tacGia": "Lương Duyên Bình",
       "viTri": "GT VẬT LÝ - N15",
       "soLuong": 14,
+      "isFalvorite": false,
       "id": 29
     },
     {
@@ -298,6 +327,7 @@
       "tacGia": "",
       "viTri": "GT VẬT LÝ - N14",
       "soLuong": 13,
+      "isFalvorite": false,
       "id": 30
     }
   ],

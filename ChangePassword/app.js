@@ -116,7 +116,8 @@ function handleChangePw(users) {
     } else {
       for (let i = 0; i < users.length; i++) {
         if (
-          users[i].username == studentID.value &&
+          users[i].username.toLowerCase() ==
+            studentID.value.trim().toLowerCase() &&
           users[i].password == password.value
         ) {
           let data = {
