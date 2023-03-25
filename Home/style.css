@@ -151,6 +151,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .featured_boks .featured_book_box .featured_book_card:hover {
@@ -216,7 +217,6 @@
   border: 2px solid var(--primary-color);
   text-decoration: none;
   color: #000;
-  margin-top: 40px;
 }
 .f_btn:hover,
 .f_btn:focus {
@@ -272,4 +272,20 @@
   font-size: 20px;
   cursor: pointer;
   padding: 0 5px;
+}
+.featured_book_footer {
+  margin-top: 40px;
+}
+.heart:hover {
+  color: #cb418f;
+}
+.heart .favorite_active {
+  color: #cb418f;
+}
+.heart {
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
 }

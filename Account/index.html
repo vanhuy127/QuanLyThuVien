@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-main">
+          <div class="container">
+            <div class="logo">
+              <i class="fa-solid fa-book-open"></i>
+              <span></span>
+              <p class="logo-name">Trường Đại học Khoa học Huế</p>
+            </div>
+            <a href="../Login.html" class="button logout">Đăng xuất</a>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="container">
+          <div class="nav-bar">
+            <h2 class="name">Nguyễn Văn Huy</h2>
+            <p class="role">Student</p>
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="account.html"
+                  ><i class="fa-regular fa-user"></i>
+                  <span>Quản lý tài khoản</span></a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"
+                  ><i class="fa-regular fa-user"></i> <span>Mượn sách</span></a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"
+                  ><i class="fa-regular fa-user"></i> <span>Trả sách</span></a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"
+                  ><i class="fa-regular fa-user"></i>
+                  <span>Kho tài liệu cá nhân</span></a
+                >
+                <ul class="sub-list">
+                  <li class="sub-item">
+                    <a href="">Tài liệu đã mượn - trả</a>
+                  </li>
+                  <li class="sub-item"><a href="">Tài liệu yêu thích</a></li>
+                  <li class="sub-item"><a href="">Bộ sưu tập</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="main-content">
+            <div class="featured_account">
+              <div class="title">Quản lý tài khoản</div>
+              <div class="content">
+                <table width="700px">
+                  <tr>
+                    <td rowspan="3" style="width: 200px">
+                      <div class="avatar">
+                        <img
+                          src="https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/"
+                          alt="My Photo"
+                        />
+                      </div>
+                    </td>
+                    <!-- <th width="500px" height="50px"></th> -->
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="info_St">
+                        <div class="name">
+                          <p class="label">Họ tên</p>
+                          <p class="value"></p>
+                        </div>
+                        <div class="idSt">
+                          <p class="label">Mã sinh viên:</p>
+                          <p class="value"></p>
+                        </div>
+                        <div class="dayOfBirth">
+                          <p class="label">Ngày sinh:</p>
+                          <p class="value"></p>
+                        </div>
+                        <div class="className">
+                          <p class="label">Lớp:</p>
+                          <p class="value"></p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <form action="#">
+                  <div class="user-details">
+                    <div class="input-box">
+                      <span class="details">Họ và tên</span>
+                      <input type="text" placeholder="Nhập họ và tên" />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Mã sinh viên</span>
+                      <input type="text" placeholder="Nhập mã sinh viên" />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Ngày sinh</span>
+                      <input type="date" placeholder="Nhập ngày sinh" />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Nhập lớp</span>
+                      <input type="text" placeholder="Nhập lớp" />
+                    </div>
+                  </div>
+                  <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1" />
+                    <input type="radio" name="gender" id="dot-2" />
+                    <span class="gender-title">Giới tính</span>
+                    <div class="category">
+                      <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Nam</span>
+                      </label>
+                      <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Nữ</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="button">
+                    <input type="submit" value="Cập nhật tài khoản" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
