@@ -78,6 +78,7 @@
       "id": 7
     },
     {
+      "id": 8,
       "maSach": "TIN08",
       "ten": "Giáo trình cơ sở dữ liệu",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -85,8 +86,7 @@
       "tacGia": "Nguyễn Hoàng Sơn",
       "viTri": "GT TIN - N5",
       "soLuong": 25,
-      "isFalvorite": false,
-      "id": 8
+      "isFalvorite": false
     },
     {
       "maSach": "TIN09",
@@ -232,6 +232,7 @@
       "id": 21
     },
     {
+      "id": 22,
       "maSach": "KTR03",
       "ten": "Nguyên lý thiết kế công trình kiến trúc công cộng",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -239,8 +240,7 @@
       "tacGia": "Tạ Trường Xuân",
       "viTri": "GT KIẾN TRÚC - N3",
       "soLuong": 25,
-      "isFalvorite": false,
-      "id": 22
+      "isFalvorite": true
     },
     {
       "maSach": "KTR04",
@@ -287,6 +287,7 @@
       "id": 26
     },
     {
+      "id": 27,
       "maSach": "VL01",
       "ten": "Giáo trình thông tin cáp quang",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -294,8 +295,7 @@
       "tacGia": "Bùi Bằng Đoan",
       "viTri": "GT VẬT LÝ - N2",
       "soLuong": 8,
-      "isFalvorite": false,
-      "id": 27
+      "isFalvorite": false
     },
     {
       "id": 28,
@@ -309,6 +309,7 @@
       "isFalvorite": false
     },
     {
+      "id": 29,
       "maSach": "VL03",
       "ten": "Giải bài tập và bài toán cơ sở vật lý",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -316,8 +317,7 @@
       "tacGia": "Lương Duyên Bình",
       "viTri": "GT VẬT LÝ - N15",
       "soLuong": 14,
-      "isFalvorite": false,
-      "id": 29
+      "isFalvorite": false
     },
     {
       "maSach": "KTR07",
@@ -329,6 +329,12 @@
       "soLuong": 13,
       "isFalvorite": false,
       "id": 30
+    }
+  ],
+  "IdAccessBook": [
+    {
+      "id": 1,
+      "idBook": 2
     }
   ],
   "account": [
@@ -360,19 +366,6 @@
       "ngayMuon": "23/03/2023",
       "ngayTra": "06/04/2023",
       "soNgayMuon": 14
-    }
-  ],
-  "favotite": [
-    {
-      "id": 1,
-      "idSach": [
-        "TIN01",
-        "TIN07",
-        "TIN08",
-        "TOAN03",
-        "TOAN04",
-        "TOAN05"
-      ]
     }
   ],
   "collections": [

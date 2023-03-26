@@ -226,6 +226,7 @@
   border: 2px solid var(--primary-color);
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
 .f_btn:hover,
 .f_btn:focus {

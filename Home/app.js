@@ -3,6 +3,7 @@ let searchInput = document.querySelector(".search input");
 let searchButton = document.querySelector(".search i");
 
 const booksAPI = "http://localhost:3000/books";
+const idAccessBooksApi = "http://localhost:3000/IdAccessBook";
 
 function start() {
   getBooks(function (books) {
@@ -25,7 +26,6 @@ function renderBooksItem(item, newContainer) {
   if (item.tacGia == "") {
     item.tacGia = "-";
   }
-  console.log(item);
   newContainer.innerHTML = `
         <div div class="featured_book_card">
             <div class="featurde_book_img">
@@ -51,7 +51,6 @@ function renderBooksItem(item, newContainer) {
 
 function renderBooks(books) {
   container.innerHTML = "";
-  console.log(books);
   books.forEach((item) => {
     var newContainer = document.createElement("div");
     newContainer.classList.add("product-" + item.id);
@@ -63,13 +62,12 @@ function renderBooks(books) {
 }
 
 function handleSearch(books) {
-  searchButton.addEventListener("click", function () {
+  searchButton.addEventListener("click", function (e) {
     let valueInput = searchInput.value.trim().toLowerCase();
     if (valueInput.trim() != "") {
       container.innerHTML = "";
       books.forEach((item) => {
         if (item.ten.toLowerCase().includes(valueInput)) {
-          console.log(item.ten);
           var newContainer = document.createElement("div");
           newContainer.classList.add("product-" + item.id);
           renderBooksItem(item, newContainer);
@@ -81,39 +79,63 @@ function handleSearch(books) {
   });
 }
 
-function handleAccessBook(idBook) {
-  console.log(idBook);
-}
-
-function handleFavorite(btn, id) {
+function handleFavorite(
+  btn,
+  id,
+  maSach,
+  ten,
+  urlImage,
+  NXB,
+  tacGia,
+  viTri,
+  soLuong,
+  isFalvorite
+) {
   btn.classList.toggle("favorite_active");
-  // let data = {
-  //   id,
-  //   maSach,
-  //   ten,
-  //   urlImage,
-  //   NXB,
-  //   tacGia,
-  //   viTri,
-  //   soLuong,
-  //   isFalvorite: !isFalvorite,
-  // };
-  // putBook(id, data);
+  let data = {
+    id,
+    maSach,
+    ten,
+    urlImage,
+    NXB,
+    tacGia,
+    viTri,
+    soLuong,
+    isFalvorite: !isFalvorite,
+  };
+  putBook(id, data);
 }
 
-// function putBook(id, data) {
-//   var option = {
-//     method: "PUT",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify(data),
-//   };
-//   fetch(`${booksAPI}/${id}`, option)
-//     .then(function (res) {
-//       return res.json();
-//     })
-//     .then(function () {
-//       // window.location = "../Login.html";
-//     });
-// }
+function putBook(id, data) {
+  var option = {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  };
+  fetch(`${booksAPI}/${id}`, option).then(function (res) {
+    return res.json();
+  });
+}
+
+function handleAccessBook(idBook) {
+  let data = {
+    id: 1,
+    idBook: idBook,
+  };
+  var option = {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  };
+  fetch(`${idAccessBooksApi}/1`, option)
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function () {
+      window.location = "../infoBook/index.html";
+    });
+}
