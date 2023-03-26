@@ -9,7 +9,7 @@
       "tacGia": "Nguyễn Quý Khang",
       "viTri": "GT TIN - N1",
       "soLuong": 28,
-      "isFalvorite": false
+      "isFalvorite": true
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "tacGia": "Nguyễn Quý Khang",
       "viTri": "GT TIN - N2",
       "soLuong": 34,
-      "isFalvorite": false
+      "isFalvorite": true
     },
     {
       "id": 3,
@@ -53,7 +53,7 @@
       "tacGia": "Võ Viết Minh Nhật",
       "viTri": "GT TIN - N4",
       "soLuong": 25,
-      "isFalvorite": false
+      "isFalvorite": true
     },
     {
       "id": 6,
@@ -243,17 +243,18 @@
       "isFalvorite": false
     },
     {
+      "id": 23,
       "maSach": "KTR04",
       "ten": "Giáo trình thiết kế kiến trúc nhà dân dụng",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
       "NXB": "Xây dựng, 2001",
-      "tacGia": "",
+      "tacGia": "-",
       "viTri": "GT KIẾN TRÚC - N4",
       "soLuong": 29,
-      "isFalvorite": false,
-      "id": 23
+      "isFalvorite": true
     },
     {
+      "id": 24,
       "maSach": "KTR05",
       "ten": "Cơ sở tạo hình kiến trúc",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -261,8 +262,7 @@
       "tacGia": "Nguyễn Ngọc Giả",
       "viTri": "GT KIẾN TRÚC - N7",
       "soLuong": 20,
-      "isFalvorite": false,
-      "id": 24
+      "isFalvorite": true
     },
     {
       "maSach": "KTR06",
@@ -334,7 +334,7 @@
   "IdAccessBook": [
     {
       "id": 1,
-      "idBook": 1
+      "idBook": 24
     }
   ],
   "account": [
