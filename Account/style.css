@@ -154,17 +154,17 @@
 
   align-items: start;
 }
-.content form .user-details {
+.content .form .user-details {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
-form .user-details .input-box {
+.form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
-form .input-box span.details {
+.form .input-box span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
@@ -184,23 +184,23 @@ form .input-box span.details {
 .user-details .input-box input:valid {
   border-color: #9b59b6;
 }
-form .gender-details .gender-title {
+.form .gender-details .gender-title {
   font-size: 20px;
   font-weight: 500;
 }
-form .category {
+.form .category {
   display: flex;
   width: 50%;
   margin: 14px 0;
   justify-content: left;
 }
-form .category label {
+.form .category label {
   display: flex;
   align-items: baseline;
   cursor: pointer;
   padding: 0 10px;
 }
-form .category label .dot {
+.form .category label .dot {
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -214,40 +214,39 @@ form .category label .dot {
   background: #9b59b6;
   border-color: #d9d9d9;
 }
-form input[type="radio"] {
+.form input[type="radio"] {
   display: none;
 }
-form .button {
-  height: 45px;
+
+.form .button_submit {
   margin: 30px 0;
-}
-form .button input {
+  padding: 17px 15px;
   height: 100%;
+  text-align: center;
   width: 100%;
   border-radius: 5px;
   border: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-form .button input:hover {
+.form .button_submit:hover {
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
-form .user-details .input-box {
+.form .user-details .input-box {
   margin-bottom: 15px;
   width: 100%;
 }
-form .category {
+.form .category {
   width: 100%;
 }
-.content form .user-details {
+.content .form .user-details {
   max-height: 300px;
-  overflow-y: scroll;
 }
 .user-details::-webkit-scrollbar {
   width: 5px;
@@ -262,6 +261,19 @@ form .category {
   height: 100%;
   object-fit: cover;
 }
+.info_St {
+  font-size: 18px;
+}
 .info_St .label {
   color: #2947e3;
+}
+.form .gender-details {
+  margin-top: 20px;
+}
+.info_option {
+  display: flex;
+  gap: 0 20px;
+}
+.info_option .label {
+  min-width: 100px;
 }

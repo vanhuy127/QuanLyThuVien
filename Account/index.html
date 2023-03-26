@@ -25,11 +25,13 @@
       <div class="header">
         <div class="header-main">
           <div class="container">
-            <div class="logo">
-              <i class="fa-solid fa-book-open"></i>
-              <span></span>
-              <p class="logo-name">Trường Đại học Khoa học Huế</p>
-            </div>
+            <a href="../Home/index.html">
+              <div class="logo">
+                <i class="fa-solid fa-book-open"></i>
+                <span></span>
+                <p class="logo-name">Trường Đại học Khoa học Huế</p>
+              </div>
+            </a>
             <a href="../Login.html" class="button logout">Đăng xuất</a>
           </div>
         </div>
@@ -41,7 +43,7 @@
             <p class="role">Student</p>
             <ul class="menu-list">
               <li class="menu-item">
-                <a href="account.html"
+                <a href="../Account/index.html"
                   ><i class="fa-regular fa-user"></i>
                   <span>Quản lý tài khoản</span></a
                 >
@@ -80,7 +82,7 @@
                     <td rowspan="3" style="width: 200px">
                       <div class="avatar">
                         <img
-                          src="https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/"
+                          src="https://khoinguonsangtao.vn/wp-content/uploads/2022/07/avatar-gau-cute.jpg"
                           alt="My Photo"
                         />
                       </div>
@@ -90,48 +92,60 @@
                   <tr>
                     <td>
                       <div class="info_St">
-                        <div class="name">
-                          <p class="label">Họ tên</p>
-                          <p class="value"></p>
-                        </div>
-                        <div class="idSt">
+                        <div class="idSt info_option">
                           <p class="label">Mã sinh viên:</p>
-                          <p class="value"></p>
+                          <p class="value">21T1020874</p>
                         </div>
-                        <div class="dayOfBirth">
+                        <div class="name info_option">
+                          <p class="label">Họ tên:</p>
+                          <p class="value">Nguyễn Văn Huy</p>
+                        </div>
+                        <div class="dayOfBirth info_option">
                           <p class="label">Ngày sinh:</p>
-                          <p class="value"></p>
+                          <p class="value">12/07/2003</p>
                         </div>
-                        <div class="className">
+                        <div class="className info_option">
                           <p class="label">Lớp:</p>
-                          <p class="value"></p>
+                          <p class="value">K45I</p>
+                        </div>
+                        <div class="gender info_option">
+                          <p class="label">Giới tính:</p>
+                          <p class="value">nam</p>
                         </div>
                       </div>
                     </td>
                   </tr>
                 </table>
-                <form action="#">
+                <div class="form">
                   <div class="user-details">
                     <div class="input-box">
                       <span class="details">Họ và tên</span>
-                      <input type="text" placeholder="Nhập họ và tên" />
-                    </div>
-                    <div class="input-box">
-                      <span class="details">Mã sinh viên</span>
-                      <input type="text" placeholder="Nhập mã sinh viên" />
+                      <input
+                        type="text"
+                        placeholder="Nhập họ và tên"
+                        class="inputName"
+                      />
                     </div>
                     <div class="input-box">
                       <span class="details">Ngày sinh</span>
-                      <input type="date" placeholder="Nhập ngày sinh" />
+                      <input
+                        type="date"
+                        placeholder="Nhập ngày sinh"
+                        class="inputDayOfBirth"
+                      />
                     </div>
                     <div class="input-box">
                       <span class="details">Nhập lớp</span>
-                      <input type="text" placeholder="Nhập lớp" />
+                      <input
+                        type="text"
+                        placeholder="Nhập lớp"
+                        class="inputClass"
+                      />
                     </div>
                   </div>
                   <div class="gender-details">
-                    <input type="radio" name="gender" id="dot-1" />
-                    <input type="radio" name="gender" id="dot-2" />
+                    <input type="radio" name="gender" id="dot-1" value="Nam" />
+                    <input type="radio" name="gender" id="dot-2" value="Nữ" />
                     <span class="gender-title">Giới tính</span>
                     <div class="category">
                       <label for="dot-1">
@@ -144,15 +158,14 @@
                       </label>
                     </div>
                   </div>
-                  <div class="button">
-                    <input type="submit" value="Cập nhật tài khoản" />
-                  </div>
-                </form>
+                  <div class="button_submit">Cập nhật tài khoản</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
