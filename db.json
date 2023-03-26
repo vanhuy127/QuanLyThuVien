@@ -34,6 +34,7 @@
       "isFalvorite": false
     },
     {
+      "id": 4,
       "maSach": "TIN04",
       "ten": "Cẩm nang thiết kế Website",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -41,8 +42,7 @@
       "tacGia": "Nhóm tác giả Elicom",
       "viTri": "GT TIN - N3",
       "soLuong": 26,
-      "isFalvorite": false,
-      "id": 4
+      "isFalvorite": false
     },
     {
       "id": 5,
@@ -56,6 +56,7 @@
       "isFalvorite": false
     },
     {
+      "id": 6,
       "maSach": "TIN06",
       "ten": "Giáo trình vi xử lý và cấu trúc máy tính",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -63,10 +64,10 @@
       "tacGia": "Ngô Diên Tập",
       "viTri": "GT TIN - N4",
       "soLuong": 15,
-      "isFalvorite": false,
-      "id": 6
+      "isFalvorite": false
     },
     {
+      "id": 7,
       "maSach": "TIN07",
       "ten": "Cấu trúc dữ liệu & thuật toán",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
@@ -74,8 +75,7 @@
       "tacGia": "Đinh Mạnh Tường",
       "viTri": "GT TIN - N4",
       "soLuong": 10,
-      "isFalvorite": false,
-      "id": 7
+      "isFalvorite": false
     },
     {
       "id": 8,
@@ -240,7 +240,7 @@
       "tacGia": "Tạ Trường Xuân",
       "viTri": "GT KIẾN TRÚC - N3",
       "soLuong": 25,
-      "isFalvorite": true
+      "isFalvorite": false
     },
     {
       "maSach": "KTR04",
@@ -334,7 +334,7 @@
   "IdAccessBook": [
     {
       "id": 1,
-      "idBook": 2
+      "idBook": 1
     }
   ],
   "account": [
