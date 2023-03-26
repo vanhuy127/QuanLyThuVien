@@ -27,7 +27,7 @@ function renderBooksItem(item, newContainer) {
     item.tacGia = "-";
   }
   newContainer.innerHTML = `
-        <div div class="featured_book_card">
+        <div class="featured_book_card">
             <div class="featurde_book_img">
                 <img src=${item.urlImage} />
             </div>
