@@ -78,24 +78,46 @@
             </ul>
           </div>
           <div class="main-content">
-            <div class="collection_header">
-              <h1>Bộ sưu tập</h1>
+            <div class="favorite_header">
+              <h1>Chi tiết bộ sưu tập</h1>
             </div>
-            <div class="collection_add">
-              <h2>Thêm bộ sưu tập</h2>
-              <div class="collection_add_input">
-                <input type="text" placeholder="Nhập tên BST" />
-                <button>ADD</button>
+            <div class="favorite_tool">
+              <div class="favorite_sort">
+                <i class="fa-solid fa-filter"></i>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="favorite_search">
+                <input type="text" placeholder="Nhập sách cần tìm kiếm" />
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
-            <div class="collection_content">
-              <!-- <div class="collection_card">
-                <div class="collection_name">
-                  Cấu trúc dữ liệu và giải thuật
-                </div>
-                <div class="f_btn">Chi tiết</div>
-                <i class="fa-solid fa-xmark close"></i>
-              </div> -->
+            <div class="table_favorite_book">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>MÃ SÁCH</th>
+                    <th>TÊN SÁCH</th>
+                    <th>TÁC GIẢ</th>
+                    <th>TRUY CẬP</th>
+                    <th>XÓA</th>
+                  </tr>
+                </thead>
+                <tbody class="favorite_table_content">
+                  <!-- <tr>
+                    <td>1</td>
+                    <td>TOAN01</td>
+                    <td>Cấu trúc dữ liệu và giải thuật</td>
+                    <td>Nguyễn Văn Huy</td>
+                    <td>
+                      <i class="fa-solid fa-circle-info"></i>
+                    </td>
+                    <td>
+                      <i class="fa-solid fa-trash"></i>
+                    </td>
+                  </tr> -->
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

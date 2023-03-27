@@ -243,15 +243,7 @@
       "isFalvorite": false
     },
     {
-      "id": 23,
-      "maSach": "KTR04",
-      "ten": "Giáo trình thiết kế kiến trúc nhà dân dụng",
-      "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
-      "NXB": "Xây dựng, 2001",
-      "tacGia": "-",
-      "viTri": "GT KIẾN TRÚC - N4",
-      "soLuong": 29,
-      "isFalvorite": true
+      "id": 23
     },
     {
       "id": 24,
@@ -334,7 +326,7 @@
   "IdAccessBook": [
     {
       "id": 1,
-      "idBook": 24
+      "idBook": 1
     }
   ],
   "account": [
@@ -371,7 +363,6 @@
   "collections": [
     {
       "id": 1,
-      "idBST": "BST01",
       "ten": "Giáo trình",
       "idSach": [
         "TIN03",
@@ -381,11 +372,11 @@
     },
     {
       "id": 2,
-      "idBST": "BST02",
       "ten": "Bài tập",
       "idSach": [
         "TIN01",
-        "TIN02"
+        "TIN02",
+        "VL03"
       ]
     }
   ]
