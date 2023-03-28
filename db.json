@@ -10,7 +10,7 @@
       "viTri": "GT TIN - N1",
       "soLuong": 28,
       "daMuon": 26,
-      "isFalvorite": true
+      "isFalvorite": false
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "viTri": "GT TIN - N2",
       "soLuong": 34,
       "daMuon": 0,
-      "isFalvorite": true
+      "isFalvorite": false
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "viTri": "GT TIN - N3",
       "soLuong": 26,
       "daMuon": 0,
-      "isFalvorite": false
+      "isFalvorite": true
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "viTri": "GT TIN - N4",
       "soLuong": 25,
       "daMuon": 0,
-      "isFalvorite": true
+      "isFalvorite": false
     },
     {
       "id": 6,
@@ -241,16 +241,16 @@
       "id": 20
     },
     {
+      "id": 21,
       "maSach": "KTR02",
       "ten": "Giáo trình kết cấu xây dựng",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
       "NXB": "Xây dựng, 2001",
-      "tacGia": "",
+      "tacGia": "-",
       "viTri": "GT KIẾN TRÚC - N2",
       "soLuong": 25,
       "daMuon": 0,
-      "isFalvorite": false,
-      "id": 21
+      "isFalvorite": false
     },
     {
       "id": 22,
@@ -265,19 +265,16 @@
       "isFalvorite": false
     },
     {
-      "id": 23
-    },
-    {
-      "id": 24,
-      "maSach": "KTR05",
-      "ten": "Cơ sở tạo hình kiến trúc",
+      "id": 23,
+      "maSach": "KTR04",
+      "ten": "Nguyên lý thiết kế công trình kiến trúc công cộng",
       "urlImage": "https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/",
       "NXB": "Xây dựng, 2001",
-      "tacGia": "Nguyễn Ngọc Giả",
-      "viTri": "GT KIẾN TRÚC - N7",
-      "soLuong": 20,
+      "tacGia": "Tạ Trường Xuân",
+      "viTri": "GT KIẾN TRÚC - N3",
+      "soLuong": 25,
       "daMuon": 0,
-      "isFalvorite": true
+      "isFalvorite": false
     },
     {
       "maSach": "KTR06",
@@ -349,19 +346,19 @@
       "viTri": "GT VẬT LÝ - N14",
       "soLuong": 13,
       "daMuon": 0,
-      "isFalvorite": true
+      "isFalvorite": false
     }
   ],
   "IdAccessBook": [
     {
       "id": 1,
-      "idBook": 1
+      "idBook": 2
     }
   ],
   "account": [
     {
       "username": "21T1020874",
-      "password": "11111",
+      "password": "22222",
       "id": 1
     }
   ],
@@ -412,7 +409,8 @@
       "idSach": [
         "TIN03",
         "TIN04",
-        "TIN06"
+        "TIN06",
+        "TIN08"
       ]
     },
     {
