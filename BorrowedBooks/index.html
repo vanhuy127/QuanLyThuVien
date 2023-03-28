@@ -65,12 +65,10 @@
                 >
                 <ul class="sub-list">
                   <li class="sub-item">
-                    <a href="../BorrowedBooks/index.html"
-                      >Tài liệu đã mượn - trả</a
-                    >
+                    <a href="#">Tài liệu đã mượn - trả</a>
                   </li>
                   <li class="sub-item">
-                    <a href="#">Tài liệu yêu thích</a>
+                    <a href="../Favorites/index.html">Tài liệu yêu thích</a>
                   </li>
                   <li class="sub-item">
                     <a href="../Collections/index.html">Bộ sưu tập</a>
@@ -80,42 +78,46 @@
             </ul>
           </div>
           <div class="main-content">
-            <div class="favorite_header">
-              <h1>Yêu thích</h1>
+            <div class="borrowed_book_header">
+              <h1>Tài liệu đã mượn - trả</h1>
             </div>
-            <div class="favorite_tool">
-              <div class="favorite_sort">
+            <div class="borrowed_book_tool">
+              <div class="borrowed_book_sort">
                 <i class="fa-solid fa-filter"></i>
                 <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div class="favorite_search">
+              <div class="borrowed_book_search">
                 <input type="text" placeholder="Nhập sách cần tìm kiếm" />
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
-            <div class="table_favorite_book">
+            <div class="table_borrowed_book">
               <table class="table">
                 <thead>
                   <tr>
                     <th>STT</th>
                     <th>MÃ SÁCH</th>
                     <th>TÊN SÁCH</th>
-                    <th>TÁC GIẢ</th>
-                    <th>TRUY CẬP</th>
-                    <th>XÓA</th>
+                    <th>NGÀY MƯỢN</th>
+                    <th>THỜI GIAN MƯỢN</th>
+                    <th>NGÀY TRẢ</th>
+                    <th>SỐ LƯỢNG</th>
+                    <th>TRẠNG THÁI</th>
+                    <th>GIA HẠN</th>
                   </tr>
                 </thead>
-                <tbody class="favorite_table_content">
+                <tbody class="borrowed_book_table_content">
                   <!-- <tr>
                     <td>1</td>
                     <td>TOAN01</td>
                     <td>Cấu trúc dữ liệu và giải thuật</td>
-                    <td>Nguyễn Văn Huy</td>
+                    <td>28/03/2023</td>
+                    <td>14:22</td>
+                    <td>04/04/2023</td>
+                    <td>2</td>
+                    <td>Đang mượn</td>
                     <td>
                       <i class="fa-solid fa-circle-info"></i>
-                    </td>
-                    <td>
-                      <i class="fa-solid fa-trash"></i>
                     </td>
                   </tr> -->
                 </tbody>
@@ -123,6 +125,42 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="confirm_borrow_book_wrapper">
+        <!-- <div class="confirm_borrow_book"> -->
+        <!-- <h2 class="confirm_borrow_book_title">Gia hạn mượn sách</h2>
+          <div class="info">
+            <div class="info_option">
+              <p class="title">Mã sách:</p>
+              <p class="value">TIN01</p>
+            </div>
+            <div class="info_option">
+              <p class="title">Tên sách:</p>
+              <p class="value">Cấu trúc dữ liệu và giải thuật</p>
+            </div>
+            <div class="info_option">
+              <p class="title">Ngày mượn:</p>
+              <p class="value">28/03/2023</p>
+            </div>
+            <div class="info_option">
+              <p class="title">Thời gian mượn:</p>
+              <p class="value">14:22</p>
+            </div>
+            <div class="info_option">
+              <p class="title">Ngày trả:</p>
+              <p class="value">04/04/2023</p>
+            </div>
+            <div class="info_option">
+              <label for="day_return_book_label" class="title"
+                >Gia hạn đến ngày:
+              </label>
+              <input type="date" name="" id="extensionDate" />
+            </div>
+          </div>
+          <button class="confirm_btn">Xác nhận mượn sách</button>
+
+          <i class="fa-solid fa-xmark close"></i> -->
+        <!-- </div> -->
       </div>
     </div>
     <script src="./app.js"></script>

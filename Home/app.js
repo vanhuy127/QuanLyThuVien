@@ -40,7 +40,7 @@ function renderBooksItem(item, newContainer) {
                     <div class="f_btn" onclick="handleAccessBook(${item.id})">Chi tiết</div>
                 </div>
             </div>
-            <i class="heart fa-solid fa-heart" onclick="handleFavorite(this, ${item.id}, '${item.maSach}', '${item.ten}',  '${item.urlImage}', '${item.NXB}', '${item.tacGia}', '${item.viTri}', ${item.soLuong}, ${item.isFalvorite})"></i>
+            <i class="heart fa-solid fa-heart" onclick="handleFavorite(this, ${item.id}, '${item.maSach}', '${item.ten}',  '${item.urlImage}', '${item.NXB}', '${item.tacGia}', '${item.viTri}', ${item.soLuong}, ${item.daMuon}, ${item.isFalvorite})"></i>
         </div>
         `;
   container.appendChild(newContainer);
@@ -89,6 +89,7 @@ function handleFavorite(
   tacGia,
   viTri,
   soLuong,
+  daMuon,
   isFalvorite
 ) {
   btn.classList.toggle("favorite_active");
@@ -101,6 +102,7 @@ function handleFavorite(
     tacGia,
     viTri,
     soLuong,
+    daMuon,
     isFalvorite: !isFalvorite,
   };
   putBook(id, data);

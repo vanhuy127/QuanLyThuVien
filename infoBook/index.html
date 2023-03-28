@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Thư viện Đại học Khoa học Huế</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -65,17 +65,149 @@
                 >
                 <ul class="sub-list">
                   <li class="sub-item">
-                    <a href="">Tài liệu đã mượn - trả</a>
+                    <a href="../BorrowedBooks/index.html"
+                      >Tài liệu đã mượn - trả</a
+                    >
                   </li>
                   <li class="sub-item">
                     <a href="../Favorites/index.html">Tài liệu yêu thích</a>
                   </li>
-                  <li class="sub-item"><a href="">Bộ sưu tập</a></li>
+                  <li class="sub-item">
+                    <a href="../Collections/index.html">Bộ sưu tập</a>
+                  </li>
                 </ul>
               </li>
             </ul>
           </div>
-          <div class="main-content"></div>
+          <div class="main-content">
+            <div class="super_container">
+              <div class="container flex">
+                <div class="left">
+                  <div class="main_image">
+                    <img
+                      src="https://vietbooks.info/attachments/upload_2021-9-21_23-49-38-png.2102/"
+                      class="slide"
+                    />
+                  </div>
+                </div>
+                <div class="right">
+                  <!-- <div class="name_books">Beats Solo3 Wireless</div>
+                  <div class="id_book info_option">
+                    <p class="title">Mã sách:</p>
+                    <p class="value">TIN01</p>
+                  </div>
+                  <div class="author info_option">
+                    <p class="title">Tác giả:</p>
+                    <p class="value">Nguyễn Văn Huy</p>
+                  </div>
+                  <div class="publishing_company info_option">
+                    <p class="title">Nhà xuất bản:</p>
+                    <p class="value">NXB Hà Nội</p>
+                  </div>
+                  <div class="subject info_option">
+                    <p class="title">Chủ đề:</p>
+                    <p class="value">ĐCM</p>
+                  </div>
+                  <div class="position info_option">
+                    <p class="title">Vị trí lưu trữ:</p>
+                    <p class="value">KTTTT</p>
+                  </div>
+                  <p class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <div class="quantity info_option">
+                    <p class="title">Số lượng:</p>
+                    <p class="value">100</p>
+                  </div>
+                  <div class="quantity_borrowed info_option">
+                    <p class="title">Đã mượn:</p>
+                    <p class="value">100</p>
+                  </div>
+                  <div class="number_of_book_borrowed">
+                    <span class="minus">-</span>
+                    <div class="value_number">1</div>
+                    <span class="add">+</span>
+                  </div>
+                  <div class="options">
+                    <a href="">Mượn sách</a>
+                    <i class="heart fa-solid fa-heart"></i>
+                  </div> -->
+                </div>
+              </div>
+              <div class="book_renewable">
+                <div class="book_renewable_title">Thêm vào bộ sưu tập</div>
+                <div class="list_collection">
+                  <div class="list_item">
+                    <input type="radio" name="collection" value="Nam" />
+                    <span class="gender">Nam</span>
+                  </div>
+                </div>
+                <button class="add_collection_btn">Thêm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="confirm_borrow_book_wrapper">
+        <div class="confirm_borrow_book">
+          <!-- <h2 class="confirm_borrow_book_title">
+            Xác nhận thông tin mượn sách
+          </h2>
+          <div class="info">
+            <div class="borrow_book_info">
+              <div class="info_option">
+                <p class="title">Mã sách:</p>
+                <p class="value">TIN01</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Tên sách:</p>
+                <p class="value">Bài tập Pascal</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Tác giả:</p>
+                <p class="value">Nguyễn Văn Huy</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Nhà xuất bản:</p>
+                <p class="value">NXB Hà Nội</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Vị trí:</p>
+                <p class="value">VT 1</p>
+              </div>
+            </div>
+            <div class="student_info">
+              <div class="info_option">
+                <p class="title">Mã SV:</p>
+                <p class="value">21t1020874</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Tên:</p>
+                <p class="value">Nguyễn Văn Huy</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Ngày sinh:</p>
+                <p class="value">12/07/2003</p>
+              </div>
+              <div class="info_option">
+                <p class="title">Lớp:</p>
+                <p class="value">K45I</p>
+              </div>
+            </div>
+          </div>
+          <div class="day_return_book">
+            <label for="day_return_book_label">Ngày trả sách: </label>
+            <input type="date" name="" id="day_return_book_label" />
+          </div>
+          <button class="confirm_btn">Xác nhận mượn sách</button>
+          <p class="note">
+            *Chú ý: nếu sau 7 ngày sách vẫn chưa được nhận thì yêu cầu mượn sách
+            sẽ tự động hủy
+          </p>
+          <i class="fa-solid fa-xmark close"></i> -->
         </div>
       </div>
     </div>
