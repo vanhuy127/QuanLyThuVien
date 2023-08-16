@@ -58,7 +58,7 @@
       "viTri": "GT TIN - N4",
       "soLuong": 25,
       "daMuon": 0,
-      "isFalvorite": false
+      "isFalvorite": true
     },
     {
       "id": 6,
@@ -352,7 +352,7 @@
   "IdAccessBook": [
     {
       "id": 1,
-      "idBook": 2
+      "idBook": 1
     }
   ],
   "account": [
@@ -421,6 +421,11 @@
         "TIN02",
         "VL03"
       ]
+    },
+    {
+      "ten": "Book",
+      "idSach": [],
+      "id": 3
     }
   ]
 }
